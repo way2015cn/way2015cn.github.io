@@ -23,7 +23,7 @@ function handleRegistration(registration){
       } else {
         console.log('A Visit without previous SW');
         createSnackbar({
-          message: 'App ready for offline use.',
+          message: 'Tell me if you like it.',
           duration: 3000
         })
       }
