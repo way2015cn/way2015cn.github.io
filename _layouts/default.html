@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<!-- hack iOS CSS :active style -->
+<!-- 10 - 16行由way20200406添加，用于禁止用户复制页面内容。 -->
+<body 
+ontouchstart="" 
+οncοntextmenu='return false'    
+οndragstart='return false'    
+onselectstart ='return false'    
+οnselect='document.selection.empty()'    
+οncοpy='document.selection.empty()'    
+onbeforecopy='return false'   
+οnmοuseup='document.selection.empty()' 
+>
+
+
+    {% include nav.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+
+
+    <img src="/img/icon_wechat.png" width="0" height="0" />
+    <!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
