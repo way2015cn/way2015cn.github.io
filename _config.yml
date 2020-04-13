@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     way2015cn
-zhihu_username:     way2015cn
-github_username:    way2015cn
-twitter_username:   way2015cn
+weibo_username:     wangID
+zhihu_username:     wangID
+github_username:    wangID
+twitter_username:   wangID
 #facebook_username:  wangpro
 #linkedin_username:  firstname-lastname-idxxxx
 
